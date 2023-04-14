@@ -29,7 +29,7 @@
             display: flex;
             background-color: #006A6A;
             justify-content: space-around;
-            padding: 20px;
+            color: #FFFFFF;
         }
 
         .header-title {
@@ -45,6 +45,62 @@
             color: #008584;
             margin-bottom: 15px;
         }
+
+        .left-box {
+            background-color: #006A6A;
+            width: 50%;
+            padding: 20px;
+        }
+
+        .right-box {
+            background-color: #008C8C;
+            width: 50%;
+            padding: 20px;
+        }
+        
+        .box-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        
+        .box-preco {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .box-preco span {
+            font-size: 14px;
+            font-weight: 400;
+            font-style: italic;
+            align-self: center;
+            margin-left: 10px;
+        }
+
+        .box-body {
+            margin-bottom: 20px;
+        }
+
+        .box-button {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .box-button button {
+            font-size: 15px;
+            color: #006A6A;
+            background-color: #CCCCCC;
+            border: none;
+            border-radius: 5px;
+            width: 250px;
+            height: 50px;
+        }
+
+        .box-list ol {
+            list-style-type: disc;
+        }
+
     </style>
 
 </head>
@@ -63,11 +119,38 @@
             </div>
         </div>
         <div class="flex-container">
-            <div>
-                Coluna 1
+            <div class="left-box">
+                <div class="box-title">
+                    Assinatura Mensal:
+                </div>
+                <div class="box-body">
+                    <div class="box-preco">
+                        R$ 99,99
+                        <span>por mês.</span>
+                    </div>
+                    <div>
+                        Cancele a qualquer momento.
+                    </div>
+                </div>
+                <div class="box-button">
+                    <button>Assine Agora</button>
+                </div>
             </div>
-            <div>
-                Coluna 2
+            <div class="right-box">
+                <div class="icon">
+                    icone
+                </div>
+                <div class="box-list">
+                    Você terá acesso:
+                    <ol>
+                        <li>Projetos exclusivos</li>
+                        <li>Tutorias</li>
+                        <li>Lives Semanais</li>
+                        <li>Material didático especializado</li>
+                        <li>Fórum</li>
+                        <li>Ofertas de empregos</li>
+                    </ol>
+                </div>
             </div>
         </div>
     </div>
